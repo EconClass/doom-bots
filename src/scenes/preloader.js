@@ -35,11 +35,11 @@ class Preloader extends Scene {
     this.bottomSpikes.flipY = true;
     this.bottomSpikes.setTint(0xffffff);
 
-    this.add.text(135, 200, 'Doom \n Bots', {
-      fontFamily: 'Helvetica',
+    this.add.text(135, 200, 'Kill \nthe \nBots', {
+      fontFamily: 'Impact',
       fontSize: 36,
-      color: '#ffffff66',
-      align: 'center',
+      color: '#fff',
+      align: 'left',
     });
 
     // Transfer control to game Scene when logo is clicked

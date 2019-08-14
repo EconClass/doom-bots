@@ -203,15 +203,6 @@ class Game extends Scene {
   };
 
   resize() {
-    // const cam = this.cameras.main;
-    // cam.setViewport(0, 0, window.innerWidth, window.innerHeight);
-    // cam.centerToBounds();
-    // // Adjust the zoom such that it scales the game
-    // // just enough to clear out the black areas
-    // cam.zoom = Math.max(window.innerWidth / 270, window.innerHeight / 480);
-    // // If we want to fit our game inside, then use the min scale
-    // // cam.zoom = Math.min(window.innerWidth/270, window.innerHeight/480)
-
     const canvas = document.querySelector("canvas");
     const windowWidth = window.innerWidth;
     const windowHeight = window.innerHeight;

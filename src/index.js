@@ -18,7 +18,6 @@ const config = {
   ],
 }
 
-
 const game = new Phaser.Game(config)
 
 window.onload = function () {
