@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "yarn": "1.17.3"
+  },
   "scripts": {
     "start": "webpack",
     "dev": "webpack-dev-server"
